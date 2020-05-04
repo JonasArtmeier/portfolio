@@ -19,18 +19,13 @@ const HomeIndex = () => {
         <section id="one">
           <header className="major">
             <h2>
-              Ipsum lorem dolor aliquam ante commodo
+              Welcome to my personal Portfolio
               <br />
-              magna sed accumsan arcu neque.
             </h2>
           </header>
           <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
+            I created this website to show you my knowledge about web
+            Development
           </p>
           <ul className="actions">
             <li>
@@ -57,11 +52,7 @@ const HomeIndex = () => {
 
         <section id="three">
           <h2>Get In Touch</h2>
-          <p>
-            Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-            magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-            vulputate lorem neque lorem ipsum dolor.
-          </p>
+          <p>just drop me a message</p>
           <div className="row">
             <div className="8u 12u$(small)">
               <form method="post" action="#">
@@ -104,11 +95,11 @@ const HomeIndex = () => {
                   <h3 className="icon fa-home">
                     <span className="label">Address</span>
                   </h3>
-                  1234 Somewhere Rd.
+                  Pohlgasse 16 / 2 / 10
                   <br />
-                  Nashville, TN 00000
+                  1120 Vienna
                   <br />
-                  United States
+                  Austria
                 </li>
                 <li>
                   <h3 className="icon fa-mobile">
@@ -120,7 +111,7 @@ const HomeIndex = () => {
                   <h3 className="icon fa-envelope-o">
                     <span className="label">Email</span>
                   </h3>
-                  <a href="#">hello@untitled.tld</a>
+                  <a href="jonas-artmeier@web.de">jonas-artmeier@web.de</a>
                 </li>
               </ul>
             </div>
