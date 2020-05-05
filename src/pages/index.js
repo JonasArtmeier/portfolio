@@ -37,7 +37,21 @@ const HomeIndex = () => {
         </section>
 
         <section id="two">
-          <h2>Recent Work</h2>
+          <h2>Articel</h2>
+
+          <Gallery />
+
+          <ul className="actions">
+            <li>
+              <a href="#" className="button">
+                Full Portfolio
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section id="two">
+          <h2>Code Projects</h2>
 
           <Gallery />
 
