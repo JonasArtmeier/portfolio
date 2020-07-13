@@ -1,21 +1,21 @@
 import React from 'react'
 
 import Footer from './Footer'
-import avatar from '../assets/images/avatar.jpg'
+import avatar from '../assets/images/avatar.png'
 
 const Header = () => (
   <header id="header">
     <div className="inner">
-      <a href="#" className="image avatar">
-        <img src={avatar} alt="" />
+      <a href="#" className="image avatar" value="Jonas">
+        <img src={avatar} alt="Jonas" />
       </a>
       <h1>
         <strong>My name is Jonas</strong> <br />
-        and here you see my first Gatsby Project. <br />
+        I am an enthusiastic and ambitious IT Professional interested in
+        emerging technologies and solutions that advance the Digital
+        Transformation. <br />
         <br />
-        For this I used a responsive site template freebie
         <br />
-        crafted by <a href="http://html5up.net">HTML5 UP</a>.
       </h1>
     </div>
     <Footer />

@@ -19,32 +19,55 @@ const HomeIndex = () => {
         <section id="one">
           <header className="major">
             <h2>
-              Welcome to my personal Portfolio
+              What is my task
               <br />
             </h2>
           </header>
           <p>
-            I created this website to show you my knowledge about web
-            Development
+            In times like these, the need for emerging technologies is even more
+            important than usually and I am here to support companies to
+            develope and use those technologies. <br />
+            <br />I earned a Bachelor’s degree in Sales and Management, which
+            qualifies me for business administration roles. In my 10+ years of
+            professional experience in global IT companies, namely Oracle, IBM
+            and Ingram Micro, I gained a broad knowledge of emerging
+            technologies in areas like IoT or Cloud Computing. Since I worked
+            for these multinational companies in Germany, Austria and Ireland, I
+            bring broad insights into the global business partner landscape in
+            the IT industry with me. <br />
+            To acquire a deeper technical understanding about IT infrastructure
+            and code I successfully completed my training as Full Stack Web
+            Developer. This enabled me to work independently on web projects in
+            the front-, and backend.
+            <br />
+            <br />
+            My goal is to take the next step into digitalization together with
+            you.That means we develop a strategy and define the next projects to
+            ensure that you will remain successful in the future. I will gladly
+            implement these projects successfully for you.
           </p>
-          <ul className="actions">
-            <li>
-              <a href="#" className="button">
-                Learn More
-              </a>
-            </li>
-          </ul>
         </section>
 
         <section id="two">
-          <h2>Articel</h2>
+          <h2>My Tech Stack</h2>
+          <p>
+            - HTML - CSS <br />- JavaScript <br />- TypeScript <br />- React and
+            React Native <br />- Node.js <br />- Next.js <br />- GraphQL <br />-
+            PostgreSQL <br />- MongoDB <br />- Google Firebase and Firestore{' '}
+            <br />- Google Analytics <br />- Docker <br />- Technical SEO <br />
+            - AWS, Azure, Heroku and Netlify <br />- GitHub and GitLab <br />-
+            Testing
+          </p>
+        </section>
 
-          <Gallery />
+        <section id="two">
+          <h2>My Articles</h2>
+          {/* <Gallery /> */}
 
           <ul className="actions">
             <li>
-              <a href="#" className="button">
-                Full Portfolio
+              <a>
+                <img href="../assets/images/Titelbild.png"></img>
               </a>
             </li>
           </ul>
@@ -53,7 +76,7 @@ const HomeIndex = () => {
         <section id="two">
           <h2>Code Projects</h2>
 
-          <Gallery />
+          {/* <Gallery /> */}
 
           <ul className="actions">
             <li>
@@ -119,7 +142,7 @@ const HomeIndex = () => {
                   <h3 className="icon fa-mobile">
                     <span className="label">Phone</span>
                   </h3>
-                  000-000-0000
+                  +43 690 10012397
                 </li>
                 <li>
                   <h3 className="icon fa-envelope-o">
