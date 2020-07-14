@@ -20,7 +20,7 @@ const HomeIndex = () => {
         <meta property="og:title" content="Jonas Artmeier - Portfolio" />
         <meta
           property="og:image"
-          content="https://amazing-wilson-fa6a47.netlify.app/#"
+          content="//amazing-wilson-fa6a47.netlify.app/static/avatar-1deef899cc5860533a54e00b17dc475e.png"
         />
         <meta
           property="og:description"
@@ -43,7 +43,7 @@ const HomeIndex = () => {
           <p>
             In times like these, the need for emerging technologies is even more
             important than usually and I am here to support companies to
-            develope and use those technologies. <br />
+            develope and use this technologies. <br />
             <br />I earned a Bachelor’s degree in Sales and Management, which
             qualifies me for business administration roles. In my 10+ years of
             professional experience in global IT companies, namely Oracle, IBM
