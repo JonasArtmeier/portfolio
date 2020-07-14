@@ -78,12 +78,11 @@ const HomeIndex = () => {
           <h2>My Articles</h2>
 
           {/* <Gallery /> */}
-          <div href="https://www.linkedin.com/pulse/why-i-left-my-job-sales-acquire-skill-set-full-stack-web-artmeier/">
+          <div>
             <img
               style={{ width: '200px' }}
               src={require('../assets/images/Titelbild.png')}
               alt="Titelbild Artikel"
-              href="https://www.linkedin.com/pulse/why-i-left-my-job-sales-acquire-skill-set-full-stack-web-artmeier/"
             />
           </div>
           <a href="https://www.linkedin.com/pulse/why-i-left-my-job-sales-acquire-skill-set-full-stack-web-artmeier/">
