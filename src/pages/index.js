@@ -18,10 +18,7 @@ const HomeIndex = () => {
         />
 
         <meta property="og:title" content="Jonas Artmeier - Portfolio" />
-        <meta
-          property="og:image"
-          content="//amazing-wilson-fa6a47.netlify.app/static/avatar-1deef899cc5860533a54e00b17dc475e.png"
-        />
+        <meta property="og:image" content="../assets/images/bg.png" />
         <meta
           property="og:description"
           content="Find all inforamtion about Jonas Artmeier as an IT Strategy Consultant and Software Developer with a deep knowledge in Digital Transformation"
