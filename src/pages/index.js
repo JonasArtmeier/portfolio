@@ -11,8 +11,22 @@ const HomeIndex = () => {
   return (
     <Layout>
       <Helmet>
-        <title>{siteTitle}</title>
-        <meta name="description" content={siteDescription} />
+        <title>Jonas Artmeier</title>
+        <meta
+          name="description"
+          content="find all inforamtion about Jonas Artmeier as a IT Strategy Consultant and Software Developer with a deep knowledge in Digital Transformation"
+        />
+
+        <meta name="og:title" content="Jonas Artmeier - Portfolio" />
+        <meta name="og:image" content="../assets/images/bg.png" />
+        <meta
+          name="og:description"
+          content="Find all inforamtion about Jonas Artmeier as an IT Strategy Consultant and Software Developer with a deep knowledge in Digital Transformation"
+        />
+        <meta
+          name="og:url"
+          content="https://amazing-wilson-fa6a47.netlify.app/"
+        />
       </Helmet>
 
       <div id="main">
