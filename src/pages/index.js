@@ -77,14 +77,7 @@ const HomeIndex = () => {
         <section id="two">
           <h2>My Articles</h2>
           {/* <Gallery /> */}
-
-          <ul className="actions">
-            <li>
-              <a>
-                <img href="../assets/images/Titelbild.png"></img>
-              </a>
-            </li>
-          </ul>
+          <img href="../assets/images/Titelbild.png"></img>
         </section>
 
         <section id="two">
