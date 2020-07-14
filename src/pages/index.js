@@ -18,7 +18,7 @@ const HomeIndex = () => {
         />
 
         <meta property="og:title" content="Jonas Artmeier - Portfolio" />
-        <meta property="og:image" content="../assets/images/bg.png" />
+        <meta property="og:image" content="../assets/images/avatar.png" />
         <meta
           property="og:description"
           content="Find all inforamtion about Jonas Artmeier as an IT Strategy Consultant and Software Developer with a deep knowledge in Digital Transformation"
@@ -76,8 +76,20 @@ const HomeIndex = () => {
 
         <section id="two">
           <h2>My Articles</h2>
+
           {/* <Gallery /> */}
-          <img href="../assets/images/Titelbild.png"></img>
+          <div href="https://www.linkedin.com/pulse/why-i-left-my-job-sales-acquire-skill-set-full-stack-web-artmeier/">
+            <img
+              style={{ width: '200px' }}
+              src={require('../assets/images/Titelbild.png')}
+              alt="Titelbild Artikel"
+              href="https://www.linkedin.com/pulse/why-i-left-my-job-sales-acquire-skill-set-full-stack-web-artmeier/"
+            />
+          </div>
+          <a href="https://www.linkedin.com/pulse/why-i-left-my-job-sales-acquire-skill-set-full-stack-web-artmeier/">
+            Why I left my job in IT sales to acquire the skill set of a Full
+            Stack Web Developer.
+          </a>
         </section>
 
         <section id="two">
