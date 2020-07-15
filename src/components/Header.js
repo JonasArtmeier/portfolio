@@ -10,10 +10,10 @@ const Header = () => (
         <img src={avatar} alt="Jonas" />
       </a>
       <h1>
-        <strong>My name is Jonas</strong> <br />
-        I am an enthusiastic and ambitious IT Professional interested in
-        emerging technologies and solutions that advance the Digital
-        Transformation. <br />
+        <strong>My name is Jonas</strong> <br />I am an enthusiastic and
+        ambitious IT Professional interested in emerging technologies and
+        solutions that advance the Digital Transformation based in <b>Vienna</b>
+        . <br />
         <br />
         <br />
       </h1>

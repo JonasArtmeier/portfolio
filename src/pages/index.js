@@ -142,9 +142,9 @@ const HomeIndex = () => {
 
         <section id="three">
           <h2>Get In Touch</h2>
-          <p>just drop me a message</p>
+          {/* <p>just drop me a message</p> */}
           <div className="row">
-            <div className="8u 12u$(small)">
+            {/* <div className="8u 12u$(small)">
               <form method="post" action="#">
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
@@ -178,10 +178,10 @@ const HomeIndex = () => {
                   </li>
                 </ul>
               </form>
-            </div>
+            </div> */}
             <div className="4u 12u$(small)">
               <ul className="labeled-icons">
-                <li>
+                {/* <li>
                   <h3 className="icon fa-home">
                     <span className="label">Address</span>
                   </h3>
@@ -190,7 +190,7 @@ const HomeIndex = () => {
                   1120 Vienna
                   <br />
                   Austria
-                </li>
+                </li> */}
                 <li>
                   <h3 className="icon fa-mobile">
                     <span className="label">Phone</span>
