@@ -119,7 +119,7 @@ const HomeIndex = () => {
         <section id="two">
           <h2>Development Projects</h2>
           <p>
-            - Technical SEO
+            - Technical SEO implementation
             <br />
             - Mobile application development for IOS, Android and Web <br />
             - Database structuring with MongoDB, Google Firestore and PostgreSQL
@@ -129,7 +129,7 @@ const HomeIndex = () => {
         <section id="two">
           <h2>Consulting Projects</h2>
           <p>
-            - SEO
+            - SEO strategy
             <br />
             - Requirements management
             <br />
