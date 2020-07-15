@@ -15,10 +15,7 @@ const HomeIndex = () => {
           name="description"
           content="find all inforamtion about Jonas Artmeier as a IT Strategy Consultant and Software Developer with a deep knowledge in Digital Transformation"
         />
-        <meta
-          name="image"
-          content="https://amazing-wilson-fa6a47.netlify.app/static/avatar-1deef899cc5860533a54e00b17dc475e.png/"
-        />
+
         <meta property="og:title" content="Jonas Artmeier - Portfolio" />
         <meta
           property="og:image"
@@ -40,7 +37,11 @@ const HomeIndex = () => {
         <meta name="twitter:image" content="../assets/images/avatar.png" />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
-
+      <img
+        style={{ display: 'none' }}
+        src={require('../assets/images/avatar.png')}
+        alt="Titelbild Artikel"
+      ></img>
       <div id="main">
         <section id="one">
           <header className="major">
