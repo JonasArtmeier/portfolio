@@ -52,16 +52,15 @@ const HomeIndex = () => {
       <div id="main">
         <section id="one">
           <header className="major">
-            <h2>artmeier.me or is it admire.me? </h2>
-            <h1>
-              But why me?
+            <h2>
+              Let's work together
               <br />
-            </h1>
+            </h2>
           </header>
           <p>
             In times like these, the need for emerging technologies is even more
-            important than usually and I am here to support companies to
-            develope and use this technologies for their success. <br />
+            important than usually and I am here to support companies to develop
+            and use this technologies for their success. <br />
             <br />
             In my 10+ years of professional experience in global IT companies,
             namely Oracle, IBM and Ingram Micro, I gained a broad knowledge of
@@ -79,19 +78,20 @@ const HomeIndex = () => {
             <br />
             <br />
             My goal is to take the next step into digitalization together with
-            you.That means we develop a strategy and define the next projects to
-            ensure that you will remain successful in the future. I will gladly
-            implement these projects successfully for you.
+            you. That means we develop a strategy and define the next projects
+            to ensure that you will remain successful in the future. I will
+            gladly implement these projects successfully for you.
           </p>
         </section>
 
         <section id="two">
           <h2>My Tech Stack</h2>
           <p>
-            - HTML - CSS <br />- JavaScript <br />- TypeScript <br />- React and
-            React Native <br />- Node.js <br />- Next.js <br />- GraphQL <br />-
-            PostgreSQL <br />- MongoDB <br />- Google Firebase and Firestore{' '}
-            <br />- Google Analytics <br />- Docker <br />- Technical SEO <br />
+            - HTML <br />- CSS <br />- JavaScript <br />- TypeScript <br />-
+            React and React Native <br />- Node.js <br />- Next.js <br />-
+            GraphQL <br />- PostgreSQL <br />- MongoDB <br />- Google Firebase
+            and Firestore <br />- Google Analytics <br />- Docker <br />-
+            Technical SEO <br />
             - AWS, Azure, Heroku and Netlify <br />- GitHub and GitLab <br />-
             Testing
           </p>
@@ -119,7 +119,7 @@ const HomeIndex = () => {
         <section id="two">
           <h2>Development Projects</h2>
           <p>
-            Technical SEO
+            - Technical SEO
             <br />
             - Mobile application development for IOS, Android and Web <br />
             - Database structuring with MongoDB, Google Firestore and PostgreSQL
