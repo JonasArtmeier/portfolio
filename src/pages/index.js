@@ -16,7 +16,10 @@ const HomeIndex = () => {
         name="description"
         content="find all inforamtion about Jonas Artmeier as a IT Strategy Consultant and Software Developer with a deep knowledge in Digital Transformation"
       />
-
+      <meta
+        name="image"
+        content="https://amazing-wilson-fa6a47.netlify.app/static/avatar-1deef899cc5860533a54e00b17dc475e.png/"
+      />
       <meta property="og:title" content="Jonas Artmeier - Portfolio" />
       <meta
         property="og:image"
