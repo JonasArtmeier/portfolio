@@ -20,7 +20,7 @@ const HomeIndex = () => {
         <meta property="og:title" content="Jonas Artmeier - Portfolio" />
         <meta
           property="og:image"
-          content="https://amazing-wilson-fa6a47.netlify.app/"
+          content="https://amazing-wilson-fa6a47.netlify.app/static/avatar-1deef899cc5860533a54e00b17dc475e.png/"
         />
         <meta
           property="og:description"
