@@ -41,12 +41,10 @@ const HomeIndex = () => {
         />
         <meta
           name="twitter:image"
-          content="https://artmeier.me/static/avatar-1deef899cc5860533a54e00b17dc475e.png"
-        />
-        <meta
-          name="twitter:card"
           content={require('../assets/images/avatar.png')}
         />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="https://artmeier.me/" />
       </Helmet>
       <img
         style={{ display: 'none' }}
