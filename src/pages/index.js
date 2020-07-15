@@ -1,6 +1,5 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
@@ -91,17 +90,19 @@ const HomeIndex = () => {
           <h2>My Articles</h2>
 
           {/* <Gallery /> */}
-          <div>
-            <img
-              style={{ width: '200px' }}
-              src={require('../assets/images/Titelbild.png')}
-              alt="Titelbild Artikel"
-            />
-          </div>
-          <a href="https://www.linkedin.com/pulse/why-i-left-my-job-sales-acquire-skill-set-full-stack-web-artmeier/">
+          <h3>
             Why I left my job in IT sales to acquire the skill set of a Full
             Stack Web Developer.
-          </a>
+          </h3>
+          <div>
+            <a href="https://www.linkedin.com/pulse/why-i-left-my-job-sales-acquire-skill-set-full-stack-web-artmeier/">
+              <img
+                style={{ width: '200px' }}
+                src={require('../assets/images/Titelbild.png')}
+                alt="Titelbild Artikel"
+              />
+            </a>
+          </div>
         </section>
 
         <section id="two">
