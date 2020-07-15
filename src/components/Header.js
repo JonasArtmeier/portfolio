@@ -6,11 +6,7 @@ import avatar from '../assets/images/avatar.png'
 const Header = () => (
   <header id="header">
     <div className="inner">
-      <a
-        href="../assets/images/avatar.png"
-        className="image avatar"
-        value="Jonas"
-      >
+      <a className="image avatar" value="Jonas">
         <img src={avatar} alt="Jonas" />
       </a>
       <h1>

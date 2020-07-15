@@ -23,7 +23,7 @@ const HomeIndex = () => {
         <meta property="og:title" content="Jonas Artmeier - Portfolio" />
         <meta
           property="og:image"
-          content="https://amazing-wilson-fa6a47.netlify.app/static/avatar-1deef899cc5860533a54e00b17dc475e.png/"
+          content={require('../assets/images/avatar.png')}
         />
         <meta property="og:image:width" content="400" />
         <meta property="og:image:height" content="300" />
