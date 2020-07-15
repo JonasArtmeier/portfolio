@@ -42,7 +42,10 @@ const HomeIndex = () => {
           name="twitter:description"
           content="Find all inforamtion about Jonas Artmeier as an IT Strategy Consultant and Software Developer with a deep knowledge in Digital Transformation"
         />
-        <meta name="twitter:image" content="../assets/images/avatar.png" />
+        <meta
+          name="twitter:image"
+          content={require('../assets/images/avatar.png')}
+        />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <img
