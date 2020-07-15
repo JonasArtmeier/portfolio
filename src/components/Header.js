@@ -7,7 +7,7 @@ const Header = () => (
   <header id="header">
     <div className="inner">
       <a
-        href="https://amazing-wilson-fa6a47.netlify.app/static/avatar-1deef899cc5860533a54e00b17dc475e.png"
+        href="../assets/images/avatar.png"
         className="image avatar"
         value="Jonas"
       >
