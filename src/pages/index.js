@@ -53,10 +53,11 @@ const HomeIndex = () => {
       <div id="main">
         <section id="one">
           <header className="major">
-            <h2>
-              What is my task
+            <h2>artmeier.me or is it admire.me? </h2>
+            <h1>
+              But what is my task?
               <br />
-            </h2>
+            </h1>
           </header>
           <p>
             In times like these, the need for emerging technologies is even more

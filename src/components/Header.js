@@ -12,7 +12,9 @@ const Header = () => (
       <h1>
         <strong>Welcome to my Portfolio</strong>
         <br />
-        <br />I am an enthusiastic and ambitious IT Professional interested in
+      </h1>
+      <h1>
+        I am an enthusiastic and ambitious IT Professional interested in
         emerging technologies and solutions that advance the Digital
         Transformation. <br />
         <br />
