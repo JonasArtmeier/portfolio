@@ -3,7 +3,8 @@ import Helmet from 'react-helmet'
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
-const avatar = ''
+const avatar =
+  'https://artmeier.me/static/avatar-1deef899cc5860533a54e00b17dc475e.png'
 const HomeIndex = () => {
   const siteTitle = 'Gatsby Starter - Strata'
   const siteDescription = 'Site description'
@@ -39,18 +40,15 @@ const HomeIndex = () => {
           name="twitter:description"
           content="Find all inforamtion about Jonas Artmeier as an IT Strategy Consultant and Software Developer with a deep knowledge in Digital Transformation"
         />
-        <meta
-          name="twitter:image"
-          content={require('../assets/images/avatar.png')}
-        />
+        <meta name="twitter:image" content={avatar} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="https://artmeier.me/" />
       </Helmet>
-      <img
+      {/* <img
         style={{ display: 'none' }}
         src={require('../assets/images/avatar.png')}
         alt="Titelbild Artikel"
-      ></img>
+      ></img> */}
       <div id="main">
         <section id="one">
           <header className="major">
