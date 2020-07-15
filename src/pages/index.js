@@ -15,6 +15,10 @@ const HomeIndex = () => {
           name="description"
           content="find all inforamtion about Jonas Artmeier as a IT Strategy Consultant and Software Developer with a deep knowledge in Digital Transformation"
         />
+        <meta
+          name="viewport"
+          content="width=device-width,initial-scale=1,shrink-to-fit=no,viewport-fit=cover"
+        />
 
         <meta property="og:title" content="Jonas Artmeier - Portfolio" />
         <meta
