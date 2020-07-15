@@ -17,11 +17,11 @@ const Footer = () => (
             <span className="label">Github</span>
           </a>
         </li>
-        <li>
+        {/* <li>
           <a href="#" className="icon fa-dribbble">
             <span className="label">Dribbble</span>
           </a>
-        </li>
+        </li> */}
         <li>
           <a href="jonas-artmeier@web.de" className="icon fa-envelope-o">
             <span className="label">Email</span>
