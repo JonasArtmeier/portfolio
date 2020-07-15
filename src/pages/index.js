@@ -115,14 +115,14 @@ const HomeIndex = () => {
         </section>
 
         <section id="two">
-          <h2>Code Projects</h2>
+          <h2>Development Projects</h2>
           <p>
             Technical SEO
             <br />
-            Mobile application development for IOS Android and Web <br />
+            Mobile application development for IOS, Android and Web <br />
             Database structuring with MongoDB, Google Firestore and PostgreSQL
             <br />
-            E-Commerce Shop
+            E-Commerce Shop development
           </p>
         </section>
         <section id="two">
@@ -135,6 +135,8 @@ const HomeIndex = () => {
             Consulting on Digital Transformation Porjects for SMEs
             <br />
             IoT projects
+            <br />
+            Google Analytics projects
             <br />
             Cloud native fan
           </p>
