@@ -61,15 +61,17 @@ const HomeIndex = () => {
           <p>
             In times like these, the need for emerging technologies is even more
             important than usually and I am here to support companies to
-            develope and use this technologies. <br />
-            <br />I earned a Bachelor’s degree in Sales and Management, which
-            qualifies me for business administration roles. In my 10+ years of
-            professional experience in global IT companies, namely Oracle, IBM
-            and Ingram Micro, I gained a broad knowledge of emerging
-            technologies in areas like IoT or Cloud Computing. Since I worked
-            for these multinational companies in Germany, Austria and Ireland, I
-            bring broad insights into the global business partner landscape in
-            the IT industry with me. <br />
+            develope and use this technologies for their success. <br />
+            <br />
+            In my 10+ years of professional experience in global IT companies,
+            namely Oracle, IBM and Ingram Micro, I gained a broad knowledge of
+            emerging technologies in areas like IoT or Cloud Computing. Since I
+            worked for these multinational companies in Germany, Austria and
+            Ireland, I bring broad insights into the global business partner
+            landscape in the IT industry with me. I developed digital
+            transformation strategies with global enterprises to become the
+            industry leader.
+            <br />
             To acquire a deeper technical understanding about IT infrastructure
             and code I successfully completed my training as Full Stack Web
             Developer. This enabled me to work independently on web projects in
@@ -202,6 +204,16 @@ const HomeIndex = () => {
                     <span className="label">Email</span>
                   </h3>
                   <a href="jonas-artmeier@web.de">jonas-artmeier@web.de</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="footer">
+            <div className="inner">
+              <ul className="copyright">
+                <li style={{ color: 'black' }}>&copy; Gatsby Starter Strata</li>
+                <li style={{ color: 'black' }}>
+                  Design: <a href="http://html5up.net">HTML5 UP</a>
                 </li>
               </ul>
             </div>
