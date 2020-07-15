@@ -52,10 +52,10 @@ const HomeIndex = () => {
       <div id="main">
         <section id="one">
           <header className="major">
-            <h2>
+            <h1>
               Let's work together
               <br />
-            </h2>
+            </h1>
           </header>
           <p>
             In times like these, the need for emerging technologies is even more
