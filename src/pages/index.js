@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
+const avatar = ''
 const HomeIndex = () => {
   const siteTitle = 'Gatsby Starter - Strata'
   const siteDescription = 'Site description'
@@ -115,10 +116,28 @@ const HomeIndex = () => {
 
         <section id="two">
           <h2>Code Projects</h2>
-
-          {/* <Gallery /> */}
-
-          <ul className="actions"></ul>
+          <p>
+            Technical SEO
+            <br />
+            Mobile application development for IOS Android and Web <br />
+            Database structuring with MongoDB, Google Firestore and PostgreSQL
+            <br />
+            E-Commerce Shop
+          </p>
+        </section>
+        <section id="two">
+          <h2>Consulting Projects</h2>
+          <p>
+            SEO for various companies
+            <br />
+            Requirements management
+            <br />
+            Consulting on Digital Transformation Porjects for SMEs
+            <br />
+            IoT projects
+            <br />
+            Cloud native fan
+          </p>
         </section>
 
         <section id="three">
