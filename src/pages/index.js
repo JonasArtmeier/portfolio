@@ -128,7 +128,7 @@ const HomeIndex = () => {
         <section id="two">
           <h2>Consulting Projects</h2>
           <p>
-            SEO for various companies
+            SEO
             <br />
             Requirements management
             <br />
