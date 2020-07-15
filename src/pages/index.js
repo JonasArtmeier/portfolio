@@ -119,26 +119,24 @@ const HomeIndex = () => {
           <p>
             Technical SEO
             <br />
-            Mobile application development for IOS, Android and Web <br />
-            Database structuring with MongoDB, Google Firestore and PostgreSQL
-            <br />
-            E-Commerce Shop development
+            - Mobile application development for IOS, Android and Web <br />
+            - Database structuring with MongoDB, Google Firestore and PostgreSQL
+            <br />- E-Commerce Shop development
           </p>
         </section>
         <section id="two">
           <h2>Consulting Projects</h2>
           <p>
-            SEO
+            - SEO
             <br />
-            Requirements management
+            - Requirements management
             <br />
-            Consulting on Digital Transformation Porjects for SMEs
+            - Consulting on Digital Transformation Porjects for SMEs
             <br />
-            IoT projects
+            - IoT projects
             <br />
-            Google Analytics projects
-            <br />
-            Cloud native fan
+            - Google Analytics projects
+            <br />- Cloud native fan
           </p>
         </section>
 
