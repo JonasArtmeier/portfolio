@@ -55,7 +55,7 @@ const HomeIndex = () => {
           <header className="major">
             <h2>artmeier.me or is it admire.me? </h2>
             <h1>
-              But what is my task?
+              But why me?
               <br />
             </h1>
           </header>
