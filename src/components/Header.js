@@ -12,8 +12,7 @@ const Header = () => (
       <h1>
         <strong>My name is Jonas</strong> <br />I am an enthusiastic and
         ambitious IT Professional interested in emerging technologies and
-        solutions that advance the Digital Transformation based in <b>Vienna</b>
-        . <br />
+        solutions that advance the Digital Transformation. <br />
         <br />
         <br />
       </h1>
