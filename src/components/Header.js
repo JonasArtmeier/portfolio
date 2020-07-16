@@ -9,6 +9,11 @@ const Header = () => (
       <a className="image avatar" value="Jonas">
         <img src={avatar} alt="Jonas" />
       </a>
+      <img
+        style={{ width: '0,0001px' }}
+        src="../assets/images/screenshot.jpg"
+        alt="Screenshot from the website"
+      ></img>
       <h1>
         <strong>Welcome to my Portfolio</strong>
         <br />

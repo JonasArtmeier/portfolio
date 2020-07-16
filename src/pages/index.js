@@ -47,11 +47,7 @@ const HomeIndex = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="https://artmeier.me/" />
       </Helmet>
-      <img
-        style={{ width: '0,0001px' }}
-        src="../assets/images/screenshot.jpg"
-        alt="Screenshot from the website"
-      ></img>
+
       <div id="main">
         <section id="one">
           <header className="major">
