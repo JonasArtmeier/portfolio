@@ -5,6 +5,7 @@ module.exports = {
     description: 'This is Jonas Portfolio from the UpLeveled Bootcamp',
   },
   plugins: [
+    // 'gatsby-plugin-social-cards',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
@@ -18,19 +19,19 @@ module.exports = {
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
     },
-    // {
-    //   resolve: 'gatsby-plugin-social-cards',
-    //   options: {
-    //     // ommit to skip
-    //     authorImage: './src/assets/images/screenshot.JPG',
-    //     // image to use when no cover in frontmatter
-    //     backgroundImage: './src/assets/images/screenshot.JPG',
-    //     // author to use when no auth in frontmatter
-    //     defaultAuthor: 'Jonas Artmeier',
-    //     // card design
-    //     design: 'default', // 'default' or 'card'
-    //   },
-    // },
+    {
+      resolve: 'gatsby-plugin-social-cards',
+      options: {
+        // ommit to skip
+        authorImage: './src/assets/images/screenshot.jpg',
+        // image to use when no cover in frontmatter
+        backgroundImage: './src/assets/images/screenshot.jpg',
+        // author to use when no auth in frontmatter
+        defaultAuthor: 'Jonas Artmeier',
+        // card design
+        design: 'default', // 'default' or 'card'
+      },
+    },
 
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
