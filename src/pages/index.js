@@ -13,7 +13,38 @@ const HomeIndex = () => {
   return (
     <Layout>
       <Helmet>
-        <title>Jonas Artmeier</title>
+        {/* <!-- Primary Meta Tags --> */}
+        <title>Jonas Artmeier - Portfolio</title>
+        <meta name="title" content="Jonas Artmeier - Portfolio" />
+        <meta
+          name="description"
+          content="find all inforamtion about Jonas Artmeier as a IT Strategy Consultant and Software Developer with a deep knowledge in Digital Transformation"
+        />
+
+        {/* <!-- Open Graph / Facebook --> */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://artmeier.me/" />
+        <meta property="og:title" content="Jonas Artmeier - Portfolio" />
+        <meta
+          property="og:description"
+          content="find all inforamtion about Jonas Artmeier as a IT Strategy Consultant and Software Developer with a deep knowledge in Digital Transformation"
+        />
+        <meta property="og:image" content="../assets/images/screenshot.JPG" />
+
+        {/* <!-- Twitter --> */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://artmeier.me/" />
+        <meta property="twitter:title" content="Jonas Artmeier - Portfolio" />
+        <meta
+          property="twitter:description"
+          content="find all inforamtion about Jonas Artmeier as a IT Strategy Consultant and Software Developer with a deep knowledge in Digital Transformation"
+        />
+        <meta
+          property="twitter:image"
+          content="../assets/images/screenshot.JPG"
+        />
+
+        {/* <title>Jonas Artmeier</title>
         <meta
           name="description"
           content="find all inforamtion about Jonas Artmeier as a IT Strategy Consultant and Software Developer with a deep knowledge in Digital Transformation"
@@ -40,7 +71,7 @@ const HomeIndex = () => {
         />
         <meta name="twitter:image" content={require({ screenshot })} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="https://artmeier.me/" />
+        <meta name="twitter:site" content="https://artmeier.me/" /> */}
       </Helmet>
       {/* <img
         style={{ display: 'none' }}
