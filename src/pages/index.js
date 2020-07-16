@@ -1,50 +1,21 @@
 import React from 'react'
-import Helmet from 'react-helmet'
-import Gallery from '../components/Gallery'
+import { Helmet } from 'react-helmet'
+// import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
 const avatar =
   'https://artmeier.me/static/avatar-1deef899cc5860533a54e00b17dc475e.png'
-const screenshot = '../assets/images/screenshot.JPG'
+
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
-  const siteDescription = 'Site description'
+  // const siteTitle = 'Gatsby Starter - Strata'
+  // const siteDescription = 'Site description'
+  const screenshot = '../assets/images/screenshot.JPG'
+  const url = 'https://artmeier.me/'
 
   return (
     <Layout>
       <Helmet>
-        {/* <!-- Primary Meta Tags --> */}
-        <title>Jonas Artmeier - Portfolio</title>
-        <meta name="title" content="Jonas Artmeier - Portfolio" />
-        <meta
-          name="description"
-          content="find all inforamtion about Jonas Artmeier as a IT Strategy Consultant and Software Developer with a deep knowledge in Digital Transformation"
-        />
-
-        {/* <!-- Open Graph / Facebook --> */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://artmeier.me/" />
-        <meta property="og:title" content="Jonas Artmeier - Portfolio" />
-        <meta
-          property="og:description"
-          content="find all inforamtion about Jonas Artmeier as a IT Strategy Consultant and Software Developer with a deep knowledge in Digital Transformation"
-        />
-        <meta property="og:image" content="../assets/images/screenshot.JPG" />
-
-        {/* <!-- Twitter --> */}
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://artmeier.me/" />
-        <meta property="twitter:title" content="Jonas Artmeier - Portfolio" />
-        <meta
-          property="twitter:description"
-          content="find all inforamtion about Jonas Artmeier as a IT Strategy Consultant and Software Developer with a deep knowledge in Digital Transformation"
-        />
-        <meta
-          property="twitter:image"
-          content="../assets/images/screenshot.JPG"
-        />
-
-        {/* <title>Jonas Artmeier</title>
+        <title>Jonas Artmeier</title>
         <meta
           name="description"
           content="find all inforamtion about Jonas Artmeier as a IT Strategy Consultant and Software Developer with a deep knowledge in Digital Transformation"
@@ -55,7 +26,7 @@ const HomeIndex = () => {
         />
 
         <meta property="og:title" content="Jonas Artmeier - Portfolio" />
-        <meta property="og:image" content={require({ screenshot })} />
+        <meta property="og:image" content={url && screenshot} />
         <meta property="og:image:width" content="400" />
         <meta property="og:image:height" content="300" />
         <meta property="og:image:alt" content="Jonas" />
@@ -69,9 +40,9 @@ const HomeIndex = () => {
           name="twitter:description"
           content="Find all inforamtion about Jonas Artmeier as an IT Strategy Consultant and Software Developer with a deep knowledge in Digital Transformation"
         />
-        <meta name="twitter:image" content={require({ screenshot })} />
+        <meta name="twitter:image" content={url && screenshot} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="https://artmeier.me/" /> */}
+        <meta name="twitter:site" content="https://artmeier.me/" />
       </Helmet>
       {/* <img
         style={{ display: 'none' }}
