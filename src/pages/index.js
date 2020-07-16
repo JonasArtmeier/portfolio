@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 // import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 // import screenshot.jpg from '../assets/images/screenshot.jpg'
-import screenshot from '../assets/images/screenshot.jpg'
+// import screenshot from '../assets/images/screenshot.jpg'
 
 // const avatar =
 //   'https://artmeier.me/static/avatar-1deef899cc5860533a54e00b17dc475e.png'
@@ -11,7 +11,7 @@ import screenshot from '../assets/images/screenshot.jpg'
 const HomeIndex = () => {
   // const siteTitle = 'Gatsby Starter - Strata'
   // const siteDescription = 'Site description'
-  // const screenshot = '../assets/images/screenshot.jpg'
+  const screenshot = '../assets/images/screenshot.jpg'
   // const url = 'https://artmeier.me/'
 
   return (
