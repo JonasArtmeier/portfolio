@@ -45,11 +45,11 @@ const HomeIndex = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="https://artmeier.me/" />
       </Helmet>
-      {/* <img
+      <img
         style={{ display: 'none' }}
         src={require('../assets/images/screenshot.jpg')}
         alt="Titelbild Artikel"
-      ></img> */}
+      ></img>
       <div id="main">
         <section id="one">
           <header className="major">
