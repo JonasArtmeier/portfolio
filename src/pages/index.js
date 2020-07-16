@@ -47,7 +47,7 @@ const HomeIndex = () => {
         <meta name="twitter:site" content="https://artmeier.me/" />
       </Helmet>
       <img
-        style={{ display: 'none' }}
+        style={{ visibility: 'hidden' }}
         src={screenshot}
         alt="Titelbild Artikel"
       ></img>
