@@ -28,10 +28,7 @@ const HomeIndex = () => {
         />
 
         <meta property="og:title" content="Jonas Artmeier - Portfolio" />
-        <meta
-          property="og:image"
-          content={require('../assets/images/avatar.png')}
-        />
+        <meta property="og:image" content={avatar} />
         <meta property="og:image:width" content="400" />
         <meta property="og:image:height" content="300" />
         <meta property="og:image:alt" content="Jonas" />
