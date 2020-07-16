@@ -9,7 +9,7 @@ const avatar =
 const HomeIndex = () => {
   // const siteTitle = 'Gatsby Starter - Strata'
   // const siteDescription = 'Site description'
-  const screenshot = '../assets/images/screenshot.JPG'
+  const screenshot = '../assets/images/screenshot.jpg'
   const url = 'https://artmeier.me/'
 
   return (
@@ -46,7 +46,7 @@ const HomeIndex = () => {
       </Helmet>
       <img
         style={{ display: 'none' }}
-        src={require('../assets/images/screenshot.JPG')}
+        src={require('../assets/images/screenshot.jpg')}
         alt="Titelbild Artikel"
       ></img>
       <div id="main">
