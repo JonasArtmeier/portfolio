@@ -10,7 +10,7 @@ const HomeIndex = () => {
   // const siteTitle = 'Gatsby Starter - Strata'
   // const siteDescription = 'Site description'
   const screenshot = 'screenshot-0f86792b85fa62c3076bf8f2422a6b42.jpg'
-  const url = 'https://artmeier.me/'
+  // const url = 'https://artmeier.me/'
 
   return (
     <Layout>
