@@ -24,7 +24,7 @@ const HomeIndex = () => {
         />
 
         <meta property="og:title" content="Jonas Artmeier - Portfolio" />
-        <meta property="og:image" content={screenshot} />
+        <meta property="og:image" content={require({ screenshot })} />
         <meta property="og:image:width" content="400" />
         <meta property="og:image:height" content="300" />
         <meta property="og:image:alt" content="Jonas" />
@@ -38,7 +38,7 @@ const HomeIndex = () => {
           name="twitter:description"
           content="Find all inforamtion about Jonas Artmeier as an IT Strategy Consultant and Software Developer with a deep knowledge in Digital Transformation"
         />
-        <meta name="twitter:image" content={screenshot} />
+        <meta name="twitter:image" content={require({ screenshot })} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="https://artmeier.me/" />
       </Helmet>
