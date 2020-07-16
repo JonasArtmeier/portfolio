@@ -3,10 +3,10 @@ import Helmet from 'react-helmet'
 // import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 // import screenshot.jpg from '../assets/images/screenshot.jpg'
-// import screenshot from '../assets/images/screenshot.jpg'
+import screenshot from '../assets/images/screenshot.jpg'
 
-const avatar =
-  'https://artmeier.me/static/avatar-1deef899cc5860533a54e00b17dc475e.png'
+// const avatar =
+//   'https://artmeier.me/static/avatar-1deef899cc5860533a54e00b17dc475e.png'
 
 const HomeIndex = () => {
   // const siteTitle = 'Gatsby Starter - Strata'
@@ -28,7 +28,7 @@ const HomeIndex = () => {
         />
 
         <meta property="og:title" content="Jonas Artmeier - Portfolio" />
-        <meta property="og:image" content={avatar} />
+        <meta property="og:image" content={screenshot} />
         <meta property="og:image:width" content="400" />
         <meta property="og:image:height" content="300" />
         <meta property="og:image:alt" content="Jonas" />
@@ -42,15 +42,15 @@ const HomeIndex = () => {
           name="twitter:description"
           content="Find all inforamtion about Jonas Artmeier as an IT Strategy Consultant and Software Developer with a deep knowledge in Digital Transformation"
         />
-        <meta name="twitter:image" content={avatar} />
+        <meta name="twitter:image" content={screenshot} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="https://artmeier.me/" />
       </Helmet>
-      {/* <img
+      <img
         style={{ display: 'none' }}
         src={screenshot}
         alt="Titelbild Artikel"
-      ></img> */}
+      ></img>
       <div id="main">
         <section id="one">
           <header className="major">
