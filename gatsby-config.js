@@ -5,6 +5,7 @@ module.exports = {
     description: 'This is Jonas Portfolio from the UpLeveled Bootcamp',
   },
   plugins: [
+    'gatsby-plugin-social-cards',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
@@ -18,6 +19,7 @@ module.exports = {
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
     },
+
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
     {
