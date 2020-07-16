@@ -4,4 +4,4 @@ It is build with a gatsby template and deployed with netlifly
 
 ## Preview
 
-artmeier.me
+https://artmeier.me
