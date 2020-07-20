@@ -185,16 +185,16 @@ const HomeIndex = () => {
             </div> */}
             <div className="4u 12u$(small)">
               <ul className="labeled-icons">
-                {/* <li>
+                <li>
                   <h3 className="icon fa-home">
                     <span className="label">Address</span>
                   </h3>
-                  Pohlgasse 16 / 2 / 10
+                  Pohlgasse 16
                   <br />
                   1120 Vienna
                   <br />
                   Austria
-                </li> */}
+                </li>
                 <li>
                   <h3 className="icon fa-mobile">
                     <span className="label">Phone</span>
@@ -206,6 +206,26 @@ const HomeIndex = () => {
                     <span className="label">Email</span>
                   </h3>
                   <a href="jonas-artmeier@web.de">jonas-artmeier@web.de</a>
+                </li>
+              </ul>
+            </div>
+            <div className="4u 12u$(small)">
+              <ul className="labeled-icons">
+                <li>
+                  <h3 className="icon fa-home">
+                    <span className="label">Address</span>
+                  </h3>
+                  Freyunger Straße 6
+                  <br />
+                  81549 Munich
+                  <br />
+                  Germany
+                </li>
+                <li>
+                  <h3 className="icon fa-mobile">
+                    <span className="label">Phone</span>
+                  </h3>
+                  +49 176 34424154
                 </li>
               </ul>
             </div>
